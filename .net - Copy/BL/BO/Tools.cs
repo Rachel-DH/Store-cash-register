@@ -6,19 +6,22 @@ internal static class Tools
     {
 
         string str = "";
-
-        foreach (PropertyInfo item in obj.GetType().GetProperties())
-        {
-            if (item.PropertyType.IsPrimitive
-                || item.PropertyType == typeof(DateTime)
-                || item.PropertyType == typeof(string))
+        if(obj == null)
+            str = "null";
+        else {
+            foreach (PropertyInfo item in obj.GetType().GetProperties())
             {
-                str += item.Name + ": " + item.GetValue(obj) + ",";
-            }
-            else
-            {
-                str += item.Name + ": ";
-                str += item.GetValue(obj).ToStringProperty();
+                if (item.PropertyType.IsPrimitive
+                    || item.PropertyType == typeof(DateTime)
+                    || item.PropertyType == typeof(string))
+                {
+                    str += item.Name + ": " + item.GetValue(obj) + ",";
+                }
+                else
+                {
+                    str += item.Name + ": ";
+                    str += item.GetValue(obj).ToStringProperty();
+                }
             }
         }
 

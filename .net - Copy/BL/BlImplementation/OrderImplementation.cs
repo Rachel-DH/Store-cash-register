@@ -1,77 +1,91 @@
-﻿using BO;
-using BlApi;
-
 namespace BlImplementation;
 
-internal class OrderImplementation : IOrder
+internal class OrderImplementation : BlApi.IOrder
 {
     private DalApi.IDal _dal = DalApi.Factory.Get;
-    List<SaleInProduct> IOrder.AddProductToOrder(Order order, int productId, int amount)
+
+    List<BO.SaleInProduct> BlApi.IOrder.AddProductToOrder(BO.Order order, int productId, int amount)
     {
-        DO.Product product = _dal.product.Read(productId);
-        bool isExist = false;
-        ProductInOrder currentProduct = null;
-        foreach (ProductInOrder p in order.Products)
+        try
         {
-            if (p.Id == productId)
+            DO.Product product = _dal.product.Read(productId);
+            BO.ProductInOrder? currentProduct = order.Products.FirstOrDefault(p => p.Id == productId);
+
+            if (currentProduct != null)
             {
-                isExist = true;
-                currentProduct = p;
-                if (p.AmountInOrder + amount > product.amount)
-                    throw new BlNotEnoughInStockException("the amount is too big");
-                else
-                    p.AmountInOrder += amount;
+                if (currentProduct.AmountInOrder + amount > product.amount)
+                    throw new BO.BlNotEnoughInStockException("the amount is too big");
+                currentProduct.AmountInOrder += amount;
             }
-        }
-        if (!isExist)
-        {
-            if (amount > product.amount)
-                throw new BlNotEnoughInStockException("the amount is too big");
             else
             {
-                currentProduct = new ProductInOrder(productId, product.name, product.price, amount, null, product.price * amount);
+                if (amount > product.amount)
+                    throw new BO.BlNotEnoughInStockException("the amount is too big");
+                currentProduct = new BO.ProductInOrder(productId, product.name, product.price, amount, null, product.price * amount);
+                order.Products.Add(currentProduct);
             }
+
+            ((BlApi.IOrder)this).SearchSaleForProduct(currentProduct, order.IsMemberCustomer);
+            ((BlApi.IOrder)this).CalcTotalPriceForProduct(currentProduct);
+            ((BlApi.IOrder)this).CalcTotalPrice(order);
+            return currentProduct.Sales;
         }
-        SearchSaleForProduct(currentProduct, order.IsMemberCustomer);
-        CalcTotalPriceForProduct(currentProduct);
-        CalcTotalPrice(order);
-        return currentProduct.Sales;
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlProductIdNotFoundException(e.Message, e); }
     }
 
-    void IOrder.CalcTotalPrice(Order order)
+    void BlApi.IOrder.CalcTotalPrice(BO.Order order)
     {
-        foreach (ProductInOrder p in order.Products)
-            order.TotalPrice += p.TotalPrice;
+        order.TotalPrice = order.Products.Sum(p => p.TotalPrice);
     }
 
-    void IOrder.CalcTotalPriceForProduct(ProductInOrder productInOrder)
+    void BlApi.IOrder.CalcTotalPriceForProduct(BO.ProductInOrder productInOrder)
     {
-        int amount=productInOrder.AmountInOrder;
-        List<SaleInProduct> implementedSales = new List<SaleInProduct>();
-        foreach(SaleInProduct sale in productInOrder.Sales)
+        int count = productInOrder.AmountInOrder;
+        double total = 0;
+        List<BO.SaleInProduct> implementedSales = new List<BO.SaleInProduct>();
+
+        foreach (BO.SaleInProduct sale in productInOrder.Sales)
         {
-            if (amount < sale.AmountToSale)
-               continue;
-            productInOrder.TotalPrice-=(amount / sale.AmountToSale) *(productInOrder.BasePrice)- sale.Price;
+            if (count < sale.AmountToSale)
+                continue;
+            int times = count / sale.AmountToSale;
+            total += times * sale.Price;
             implementedSales.Add(sale);
-            amount -= (amount / sale.AmountToSale);
-            if(amount==0) 
+            count -= times * sale.AmountToSale;
+            if (count == 0)
                 break;
         }
+
+        total += count * productInOrder.BasePrice;
+        productInOrder.TotalPrice = total;
         productInOrder.Sales = implementedSales;
     }
 
-    void IOrder.DoOrder(Order order)
+    void BlApi.IOrder.DoOrder(BO.Order order)
     {
-        foreach(ProductInOrder p in order.Products)
+        try
         {
-            BO.Product product=new BO.Product(p.Id,null,);
-            _dal.product.Update()
+            order.Products.ForEach(x =>
+            {
+                DO.Product d = _dal.product.Read(x.Id);
+                _dal.product.Update(d with { amount = d.amount - x.AmountInOrder });
+            });
         }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlProductIdNotFoundException(e.Message, e); }
     }
-    void IOrder.SearchSaleForProduct(ProductInOrder productInOrder, bool isMember)
+
+    void BlApi.IOrder.SearchSaleForProduct(BO.ProductInOrder productInOrder, bool isMember)
     {
-        ProductImplementation productImplementation = new ProductImplementation();
-        productImplementation.GetSales(productInOrder, isMember);
+        try
+        {
+            var sales = from s in _dal.sale.ReadAll(s => s.barcode == productInOrder.Id
+                            && s.begin_date <= DateTime.Now && s.end_date >= DateTime.Now
+                            && (s.to_members == false || isMember))
+                        orderby s.price / s.min_amount
+                        select s.ConversDoSaleToBoSaleInProduct();
+
+            productInOrder.Sales = sales.ToList();
+        }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlProductIdNotFoundException(e.Message, e); }
     }
 }

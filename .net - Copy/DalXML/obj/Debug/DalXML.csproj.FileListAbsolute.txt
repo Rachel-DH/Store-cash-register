@@ -1,0 +1,17 @@
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalXML.deps.json
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalXML.dll
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalXML.pdb
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\DalXML.csproj.AssemblyReference.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\DalXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\DalXML.AssemblyInfoInputs.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\DalXML.AssemblyInfo.cs
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\DalXML.csproj.CoreCompileInputs.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\DalXML.sourcelink.json
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\DalXML.csproj.Up2Date
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\DalXML.dll
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\refint\DalXML.dll
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\DalXML.pdb
+C:\tehila\14\Store-cash-register\.net - Copy\DalXML\obj\Debug\ref\DalXML.dll
+c:\bin\DalXML.deps.json
+c:\bin\DalXML.dll
+c:\bin\DalXML.pdb

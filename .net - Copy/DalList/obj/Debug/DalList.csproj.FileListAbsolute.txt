@@ -93,3 +93,20 @@ M:\dot.net project\.net\DalList\obj\Debug\DalList.dll
 M:\dot.net project\.net\DalList\obj\Debug\refint\DalList.dll
 M:\dot.net project\.net\DalList\obj\Debug\DalList.pdb
 M:\dot.net project\.net\DalList\obj\Debug\ref\DalList.dll
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalList.deps.json
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalList.dll
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalList.pdb
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\DalList.sourcelink.json
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\DalList.dll
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\refint\DalList.dll
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\DalList.pdb
+C:\tehila\14\Store-cash-register\.net - Copy\DalList\obj\Debug\ref\DalList.dll
+c:\bin\DalList.deps.json
+c:\bin\DalList.dll
+c:\bin\DalList.pdb

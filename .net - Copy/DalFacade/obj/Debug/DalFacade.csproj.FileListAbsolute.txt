@@ -79,3 +79,18 @@ M:\dot.net project\.net\DalFacade\obj\Debug\DalFacade.dll
 M:\dot.net project\.net\DalFacade\obj\Debug\refint\DalFacade.dll
 M:\dot.net project\.net\DalFacade\obj\Debug\DalFacade.pdb
 M:\dot.net project\.net\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalFacade.deps.json
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalFacade.dll
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalFacade.pdb
+C:\tehila\14\Store-cash-register\.net - Copy\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\tehila\14\Store-cash-register\.net - Copy\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\tehila\14\Store-cash-register\.net - Copy\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalFacade\obj\Debug\DalFacade.sourcelink.json
+C:\tehila\14\Store-cash-register\.net - Copy\DalFacade\obj\Debug\DalFacade.dll
+C:\tehila\14\Store-cash-register\.net - Copy\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\tehila\14\Store-cash-register\.net - Copy\DalFacade\obj\Debug\DalFacade.pdb
+C:\tehila\14\Store-cash-register\.net - Copy\DalFacade\obj\Debug\ref\DalFacade.dll
+c:\bin\DalFacade.deps.json
+c:\bin\DalFacade.dll
+c:\bin\DalFacade.pdb

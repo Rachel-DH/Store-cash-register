@@ -4,7 +4,7 @@ namespace Dal
 {
     internal static class Config
     {
-        private static string xmlName=@"data-config.xml";
+        private static string xmlName = @"..\xml\data-config.xml";
         public static string xmlVersion="1.0";
 		private static string SALE_NUM = "SaleNum";
 		private static string PRODUCT_NUM = "ProductNum";

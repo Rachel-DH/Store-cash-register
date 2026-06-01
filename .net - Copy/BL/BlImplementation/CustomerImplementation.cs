@@ -1,59 +1,52 @@
-﻿using BlApi;
-using DO;
-//using BO;
-
 namespace BlImplementation;
 
-internal class CustomerImplementation : ICustomer
+internal class CustomerImplementation : BlApi.ICustomer
 {
     private DalApi.IDal _dal = DalApi.Factory.Get;
+
     public int Create(BO.Customer customer)
     {
-        return _dal.customer.Create(customer.ConversBoProductToDoProduct());
+        try { return _dal.customer.Create(customer.ConversBoProductToDoProduct()); }
+        catch (DO.DalIdAlreadyExistsException e) { throw new BO.BlCustomerAlreadyExistsException(e.Message, e); }
     }
 
     public void Delete(int id)
     {
-        _dal.product.Delete(id);
+        try { _dal.customer.Delete(id); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlCustomerIdNotFoundException(e.Message, e); }
     }
 
     public bool IsExist(BO.Customer customer)
     {
-        try
-        {
-            _dal.product.Read(customer.Id);
-            return true;
-        }catch (DalIdNotFoundException e)
-        {
-            return false;
-        }
+        try { _dal.customer.Read(customer.Id); return true; }
+        catch (DO.DalIdNotFoundException) { return false; }
     }
 
     public BO.Customer? Read(int id)
     {
-        DO.Customer customer=_dal.customer.Read(id);
-        return customer.ConversDoProductToBoProduct();
+        try { return _dal.customer.Read(id).ConversDoProductToBoProduct(); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlCustomerIdNotFoundException(e.Message, e); }
     }
 
     public BO.Customer? Read(Func<BO.Customer, bool> filter)
     {
-        DO.Customer customer = _dal.customer.Read((Func<DO.Customer, bool>)filter);
-        return customer.ConversDoProductToBoProduct();
+        try { return _dal.customer.Read(c => filter(c.ConversDoProductToBoProduct()))?.ConversDoProductToBoProduct(); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlCustomerIdNotFoundException(e.Message, e); }
     }
 
     public List<BO.Customer?> ReadAll(Func<BO.Customer, bool>? filter)
     {
-        List<DO.Customer> customers= _dal.customer.ReadAll((Func<DO.Customer?, bool>)filter);
-        List<BO.Customer> boCustomers=new List<BO.Customer>();
-        foreach (DO.Customer customer in customers)
+        try
         {
-            boCustomers.Add(customer.ConversDoProductToBoProduct());
+            var list = _dal.customer.ReadAll(filter == null ? null : c => filter(c.ConversDoProductToBoProduct()));
+            return (from c in list select (BO.Customer?)c.ConversDoProductToBoProduct()).ToList();
         }
-        return boCustomers;
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlCustomerIdNotFoundException(e.Message, e); }
     }
 
     public void Update(BO.Customer customer)
     {
-        _dal.customer.Update(customer.ConversBoProductToDoProduct());
+        try { _dal.customer.Update(customer.ConversBoProductToDoProduct()); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlCustomerIdNotFoundException(e.Message, e); }
     }
 }

@@ -1,44 +1,46 @@
-﻿using BlApi;
 namespace BlImplementation;
 
-internal class SaleImplementation : ISale
+internal class SaleImplementation : BlApi.ISale
 {
     private DalApi.IDal _dal = DalApi.Factory.Get;
+
     public int Create(BO.Sale sale)
     {
-       return _dal.sale.Create(sale.ConversBoSaleToDoSale());
+        try { return _dal.sale.Create(sale.ConversBoSaleToDoSale()); }
+        catch (DO.DalIdAlreadyExistsException e) { throw new BO.BlSaleAlreadyExistsException(e.Message, e); }
     }
 
     public void Delete(int id)
     {
-        _dal.sale.Delete(id);
+        try { _dal.sale.Delete(id); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlSaleIdNotFoundException(e.Message, e); }
     }
 
     public BO.Sale? Read(int id)
     {
-        DO.Sale sale=_dal.sale.Read(id);
-        return sale.ConversDoSaleToBoSale();
+        try { return _dal.sale.Read(id).ConversDoSaleToBoSale(); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlSaleIdNotFoundException(e.Message, e); }
     }
 
     public BO.Sale? Read(Func<BO.Sale, bool> filter)
     {
-        DO.Sale sale = _dal.sale.Read((Func<DO.Sale,bool>)filter);
-        return sale.ConversDoSaleToBoSale();
+        try { return _dal.sale.Read(s => filter(s.ConversDoSaleToBoSale()))?.ConversDoSaleToBoSale(); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlSaleIdNotFoundException(e.Message, e); }
     }
 
     public List<BO.Sale?> ReadAll(Func<BO.Sale, bool>? filter)
     {
-        List<DO.Sale> list = _dal.sale.ReadAll((Func<DO.Sale, bool>)filter);
-        List<BO.Sale> sales = new List<BO.Sale>();
-        foreach(DO.Sale sale in list)
+        try
         {
-            sales.Add(sale.ConversDoSaleToBoSale());
+            var list = _dal.sale.ReadAll(filter == null ? null : s => filter(s.ConversDoSaleToBoSale()));
+            return list.Select(s => (BO.Sale?)s.ConversDoSaleToBoSale()).ToList();
         }
-        return sales;
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlSaleIdNotFoundException(e.Message, e); }
     }
 
     public void Update(BO.Sale sale)
     {
-        _dal.sale.Update(sale.ConversBoSaleToDoSale());
+        try { _dal.sale.Update(sale.ConversBoSaleToDoSale()); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlSaleIdNotFoundException(e.Message, e); }
     }
 }

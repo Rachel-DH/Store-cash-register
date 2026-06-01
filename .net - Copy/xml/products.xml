@@ -1,3 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfProduct>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <id>1000</id>
+    <name>Diamond Stud Earrings</name>
+    <category>Earrings</category>
+    <price>100</price>
+    <amount>40</amount>
+  </Product>
+  <Product>
+    <id>1001</id>
+    <name>Gold Classic Watch</name>
+    <category>Watches</category>
+    <price>200</price>
+    <amount>10</amount>
+  </Product>
+  <Product>
+    <id>1002</id>
+    <name>Silver Charm Bracelet</name>
+    <category>Bracelets</category>
+    <price>300</price>
+    <amount>10</amount>
+  </Product>
+  <Product>
+    <id>1003</id>
+    <name>Gold Engagement Ring</name>
+    <category>Rings</category>
+    <price>400</price>
+    <amount>50</amount>
+  </Product>
+  <Product>
+    <id>1004</id>
+    <name>Pearl Necklace</name>
+    <category>Necklaces</category>
+    <price>500</price>
+    <amount>20</amount>
+  </Product>
 </ArrayOfProduct>

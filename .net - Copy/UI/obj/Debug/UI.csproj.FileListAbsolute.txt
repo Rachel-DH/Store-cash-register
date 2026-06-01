@@ -1,0 +1,29 @@
+c:\bin\UI.exe
+c:\bin\UI.deps.json
+c:\bin\UI.runtimeconfig.json
+c:\bin\UI.dll
+c:\bin\UI.pdb
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.AssemblyInfo.cs
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.sourcelink.json
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.csproj.Up2Date
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.dll
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\refint\UI.dll
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.pdb
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.genruntimeconfig.cache
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\ref\UI.dll
+C:\tehila\14\Store-cash-register\.net - Copy\bin\UI.exe
+C:\tehila\14\Store-cash-register\.net - Copy\bin\UI.deps.json
+C:\tehila\14\Store-cash-register\.net - Copy\bin\UI.runtimeconfig.json
+C:\tehila\14\Store-cash-register\.net - Copy\bin\UI.dll
+C:\tehila\14\Store-cash-register\.net - Copy\bin\UI.pdb
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.MainForm.resources
+c:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.CashierForm.resources
+C:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.CustomersForm.resources
+C:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.ManagerMenuForm.resources
+C:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.ProductsForm.resources
+C:\tehila\14\Store-cash-register\.net - Copy\UI\obj\Debug\UI.SalesForm.resources

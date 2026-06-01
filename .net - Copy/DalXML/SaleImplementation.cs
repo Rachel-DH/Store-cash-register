@@ -6,7 +6,7 @@ namespace Dal;
 internal class SaleImplementation : Isale
 {
     private XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Sale>));
-    private const string filePath = @"sales.xml";
+    private const string filePath = @"..\xml\sales.xml";
     public int Create(Sale sale)
     {
         List<Sale> sales = new List<Sale>();
@@ -89,11 +89,11 @@ internal class SaleImplementation : Isale
         {
             sales = xmlSerializer.Deserialize(sr) as List<Sale>;
         }
-        Delete(sale.id);
+        sales.RemoveAll(s => s.id == sale.id);
         sales.Add(sale);
-        using (StreamWriter sr = new StreamWriter(filePath))
+        using (StreamWriter sw = new StreamWriter(filePath))
         {
-            xmlSerializer.Serialize(sr, sales);
+            xmlSerializer.Serialize(sw, sales);
         }
     }
 }

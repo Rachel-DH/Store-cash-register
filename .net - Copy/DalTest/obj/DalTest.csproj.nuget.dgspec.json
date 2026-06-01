@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "M:\\dot.net project\\.net\\DalTest\\DalTest.csproj": {}
+    "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
-    "M:\\dot.net project\\.net\\DalFacade\\DalFacade.csproj": {
+    "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\dot.net project\\.net\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "M:\\dot.net project\\.net\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\racheldehaas\\.nuget\\packages\\",
-        "outputPath": "M:\\dot.net project\\.net\\DalFacade\\obj\\",
+        "projectPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\תהילה\\.nuget\\packages\\",
+        "outputPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\racheldehaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\תהילה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\dot.net project\\.net\\DalList\\DalList.csproj": {
+    "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\dot.net project\\.net\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "M:\\dot.net project\\.net\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\racheldehaas\\.nuget\\packages\\",
-        "outputPath": "M:\\dot.net project\\.net\\DalList\\obj\\",
+        "projectPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\תהילה\\.nuget\\packages\\",
+        "outputPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\racheldehaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\תהילה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "M:\\dot.net project\\.net\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\dot.net project\\.net\\DalFacade\\DalFacade.csproj"
+              "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -134,24 +134,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\dot.net project\\.net\\DalTest\\DalTest.csproj": {
+    "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\dot.net project\\.net\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "M:\\dot.net project\\.net\\DalTest\\DalTest.csproj",
-        "packagesPath": "C:\\Users\\racheldehaas\\.nuget\\packages\\",
-        "outputPath": "M:\\dot.net project\\.net\\DalTest\\obj\\",
+        "projectPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalTest\\DalTest.csproj",
+        "packagesPath": "C:\\Users\\תהילה\\.nuget\\packages\\",
+        "outputPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\racheldehaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\תהילה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -167,14 +167,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "M:\\dot.net project\\.net\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\dot.net project\\.net\\DalFacade\\DalFacade.csproj"
+              "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalFacade.csproj"
               },
-              "M:\\dot.net project\\.net\\DalList\\DalList.csproj": {
-                "projectPath": "M:\\dot.net project\\.net\\DalList\\DalList.csproj"
+              "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalList\\DalList.csproj"
               },
-              "M:\\dot.net project\\.net\\DalXML\\DalXML.csproj": {
-                "projectPath": "M:\\dot.net project\\.net\\DalXML\\DalXML.csproj"
+              "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalXML\\DalXML.csproj": {
+                "projectPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalXML\\DalXML.csproj"
               }
             }
           }
@@ -209,24 +209,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\dot.net project\\.net\\DalXML\\DalXML.csproj": {
+    "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalXML\\DalXML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\dot.net project\\.net\\DalXML\\DalXML.csproj",
+        "projectUniqueName": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalXML\\DalXML.csproj",
         "projectName": "DalXML",
-        "projectPath": "M:\\dot.net project\\.net\\DalXML\\DalXML.csproj",
-        "packagesPath": "C:\\Users\\racheldehaas\\.nuget\\packages\\",
-        "outputPath": "M:\\dot.net project\\.net\\DalXML\\obj\\",
+        "projectPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalXML\\DalXML.csproj",
+        "packagesPath": "C:\\Users\\תהילה\\.nuget\\packages\\",
+        "outputPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalXML\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\racheldehaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\תהילה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -242,8 +242,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "M:\\dot.net project\\.net\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\dot.net project\\.net\\DalFacade\\DalFacade.csproj"
+              "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -278,7 +278,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

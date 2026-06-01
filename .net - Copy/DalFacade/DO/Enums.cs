@@ -1,9 +1,9 @@
 ﻿namespace DO;
 public enum Category
 {
-    A,
-    B,
-    C,
-    D,
-    E
+    Rings,
+    Necklaces,
+    Bracelets,
+    Earrings,
+    Watches
 }

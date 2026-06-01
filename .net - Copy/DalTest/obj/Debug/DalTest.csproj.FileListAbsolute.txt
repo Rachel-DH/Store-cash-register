@@ -114,3 +114,25 @@ M:\dot.net project\.net\DalTest\obj\Debug\refint\DalTest.dll
 M:\dot.net project\.net\DalTest\obj\Debug\DalTest.pdb
 M:\dot.net project\.net\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 M:\dot.net project\.net\DalTest\obj\Debug\ref\DalTest.dll
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalTest.exe
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalTest.deps.json
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalTest.runtimeconfig.json
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalTest.dll
+C:\tehila\14\Store-cash-register\.net - Copy\bin\DalTest.pdb
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\DalTest.dll
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\refint\DalTest.dll
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\DalTest.pdb
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\tehila\14\Store-cash-register\.net - Copy\DalTest\obj\Debug\ref\DalTest.dll
+c:\bin\DalTest.exe
+c:\bin\DalTest.deps.json
+c:\bin\DalTest.runtimeconfig.json
+c:\bin\DalTest.dll
+c:\bin\DalTest.pdb

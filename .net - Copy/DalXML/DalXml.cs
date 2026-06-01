@@ -2,7 +2,7 @@
 
 namespace Dal;
 
-public  sealed class DalXml : IDal
+internal sealed class DalXml : IDal
 {
     public IProduct product =>  new ProductImplementation();
 

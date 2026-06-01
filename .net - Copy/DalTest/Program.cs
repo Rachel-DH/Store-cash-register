@@ -10,7 +10,7 @@ internal class Program
     {
         try
         {
-            //Initialization.Initialize(s_dal); 
+            Initialization.Initialize(); 
             PrintMainMenu();
         }
         catch (Exception ex)
@@ -74,12 +74,12 @@ internal class Program
         Category category;
         switch (categ)
         {
-            case 'A': category = Category.A; break;
-            case 'B': category = Category.B; break;
-            case 'C': category = Category.C; break;
-            case 'D': category = Category.D; break;
-            case 'E': category = Category.E; break;
-            default: category = Category.A; break;
+            case 'A': category = Category.Rings; break;
+            case 'B': category = Category.Necklaces; break;
+            case 'C': category = Category.Bracelets; break;
+            case 'D': category = Category.Earrings; break;
+            case 'E': category = Category.Watches; break;
+            default: category = Category.Rings; break;
         }
         return new Product(id, name, category, price, amount);
     }

@@ -1,130 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "M:\\dot.net project\\.net\\",
+  "WorkspaceRootPath": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\blimplementation\\orderimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\orderimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|C:\\tehila\\14\\Store-cash-register\\.net - Copy\\ui\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|m:\\dot.net project\\.net\\ui\\showall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\showall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|C:\\tehila\\14\\Store-cash-register\\.net - Copy\\ui\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|m:\\dot.net project\\.net\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|C:\\tehila\\14\\Store-cash-register\\.net - Copy\\ui\\managermenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\managermenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|m:\\dot.net project\\.net\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|C:\\tehila\\14\\Store-cash-register\\.net - Copy\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|m:\\dot.net project\\.net\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|m:\\dot.net project\\.net\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|m:\\dot.net project\\.net\\ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\blimplementation\\bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\blapi\\ibl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\blapi\\ibl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlImplementation\\BL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\blapi\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\blapi\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlApi\\Factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C831E23-6DDD-4644-8938-D15024428118}|DalFacade\\DalFacade.csproj|m:\\dot.net project\\.net\\dalfacade\\dalapi\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C831E23-6DDD-4644-8938-D15024428118}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalapi\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6BF82E6-C369-4520-A17A-D8B08DF7B5DA}|BlTest\\BlTest.csproj|m:\\dot.net project\\.net\\bltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BF82E6-C369-4520-A17A-D8B08DF7B5DA}|BlTest\\BlTest.csproj|solutionrelative:bltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10B6FB9F-9897-432D-A2C1-4FE7744FCEE5}|DalTest\\DalTest.csproj|m:\\dot.net project\\.net\\daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10B6FB9F-9897-432D-A2C1-4FE7744FCEE5}|DalTest\\DalTest.csproj|solutionrelative:daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\bo\\saleinproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\saleinproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\bo\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\bo\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\bo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\bo\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BO\\Tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\bo\\productinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\bl\\bo\\productinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\productinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\bo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\bo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|C:\\tehila\\14\\Store-cash-register\\.net - Copy\\ui\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\blimplementation\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\ui\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\blimplementation\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\bl\\bo\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bo\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\blimplementation\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|m:\\dot.net project\\.net\\bl\\blapi\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\blapi\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10B6FB9F-9897-432D-A2C1-4FE7744FCEE5}|DalTest\\DalTest.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10B6FB9F-9897-432D-A2C1-4FE7744FCEE5}|DalTest\\DalTest.csproj|solutionrelative:daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21F4AF91-4AA6-4F34-ABD6-9AD9538D550A}|DalList\\DalList.csproj|m:\\dot.net project\\.net\\dallist\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21F4AF91-4AA6-4F34-ABD6-9AD9538D550A}|DalList\\DalList.csproj|solutionrelative:dallist\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10B6FB9F-9897-432D-A2C1-4FE7744FCEE5}|DalTest\\DalTest.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10B6FB9F-9897-432D-A2C1-4FE7744FCEE5}|DalTest\\DalTest.csproj|solutionrelative:daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C831E23-6DDD-4644-8938-D15024428118}|DalFacade\\DalFacade.csproj|m:\\dot.net project\\.net\\dalfacade\\do\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C831E23-6DDD-4644-8938-D15024428118}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\do\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6BF82E6-C369-4520-A17A-D8B08DF7B5DA}|BlTest\\BlTest.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\bltest\\bltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F6BF82E6-C369-4520-A17A-D8B08DF7B5DA}|BlTest\\BlTest.csproj|solutionrelative:bltest\\bltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{88427996-7194-4423-9CFC-F541216B4D84}|BL\\BL.csproj|solutionrelative:bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|C:\\tehila\\14\\Store-cash-register\\.net - Copy\\ui\\salesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\salesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F4E6C5-905A-4231-8AC3-7EE2B67F97A1}|DalXML\\DalXML.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\dalxml\\dalxml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{43F4E6C5-905A-4231-8AC3-7EE2B67F97A1}|DalXML\\DalXML.csproj|solutionrelative:dalxml\\dalxml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\ui\\salesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE4847D8-7FFD-4CDE-96A7-042A1BAB0C6D}|UI\\UI.csproj|solutionrelative:ui\\salesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C831E23-6DDD-4644-8938-D15024428118}|DalFacade\\DalFacade.csproj|c:\\tehila\\14\\store-cash-register\\.net - copy\\dalfacade\\dalapi\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C831E23-6DDD-4644-8938-D15024428118}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalapi\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,421 +86,248 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShowAll.cs [Design]",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\UI\\ShowAll.cs",
-              "RelativeDocumentMoniker": "UI\\ShowAll.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\UI\\ShowAll.cs [Design]",
-              "RelativeToolTip": "UI\\ShowAll.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:44:41.259Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\UI\\Form1.cs",
-              "RelativeDocumentMoniker": "UI\\Form1.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\UI\\Form1.cs",
-              "RelativeToolTip": "UI\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "ProductInOrder.cs",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\BL\\BO\\ProductInOrder.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\ProductInOrder.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\BL\\BO\\ProductInOrder.cs",
+              "RelativeToolTip": "BL\\BO\\ProductInOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:37:31.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UI",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\UI\\UI.csproj",
-              "RelativeDocumentMoniker": "UI\\UI.csproj",
-              "ToolTip": "M:\\dot.net project\\.net\\UI\\UI.csproj",
-              "RelativeToolTip": "UI\\UI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-18T14:35:38.983Z",
+              "WhenOpened": "2026-06-01T14:14:46.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\UI\\Program.cs",
-              "RelativeDocumentMoniker": "UI\\Program.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\UI\\Program.cs",
-              "RelativeToolTip": "UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\BL\\BO\\Enums.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\Enums.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\BL\\BO\\Enums.cs",
+              "RelativeToolTip": "BL\\BO\\Enums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:37:16.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\UI\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "UI\\Form1.Designer.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\UI\\Form1.Designer.cs",
-              "RelativeToolTip": "UI\\Form1.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:37:13.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\UI\\Form1.cs",
-              "RelativeDocumentMoniker": "UI\\Form1.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\UI\\Form1.cs [Design]",
-              "RelativeToolTip": "UI\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:13:35.437Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BL.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BlImplementation\\BL.cs",
-              "RelativeDocumentMoniker": "BL\\BlImplementation\\BL.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BlImplementation\\BL.cs",
-              "RelativeToolTip": "BL\\BlImplementation\\BL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:07:48.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BL.cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlImplementation\\BL.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlImplementation\\BL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:06:53.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Factory.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BlApi\\Factory.cs",
-              "RelativeDocumentMoniker": "BL\\BlApi\\Factory.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BlApi\\Factory.cs",
-              "RelativeToolTip": "BL\\BlApi\\Factory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:40:32.669Z",
+              "WhenOpened": "2026-06-01T14:04:04.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderImplementation.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BlImplementation\\OrderImplementation.cs",
-              "RelativeDocumentMoniker": "BL\\BlImplementation\\OrderImplementation.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BlImplementation\\OrderImplementation.cs",
-              "RelativeToolTip": "BL\\BlImplementation\\OrderImplementation.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAAMAAAAAAAAAA==",
+              "Title": "CustomersForm.cs [Design]",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\CustomersForm.cs",
+              "RelativeDocumentMoniker": "UI\\CustomersForm.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\CustomersForm.cs [Design]",
+              "RelativeToolTip": "UI\\CustomersForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T11:37:13.449Z",
+              "WhenOpened": "2026-05-27T13:58:02.861Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManagerMenuForm.cs [Design]",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\ManagerMenuForm.cs",
+              "RelativeDocumentMoniker": "UI\\ManagerMenuForm.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\ManagerMenuForm.cs [Design]",
+              "RelativeToolTip": "UI\\ManagerMenuForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:57:30.768Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "UI\\MainForm.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\MainForm.cs [Design]",
+              "RelativeToolTip": "UI\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:54:21.01Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsForm.cs [Design]",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\ProductsForm.cs",
+              "RelativeDocumentMoniker": "UI\\ProductsForm.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\ProductsForm.cs [Design]",
+              "RelativeToolTip": "UI\\ProductsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:44:56.372Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CashierForm.cs",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\CashierForm.cs",
+              "RelativeDocumentMoniker": "UI\\CashierForm.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\CashierForm.cs",
+              "RelativeToolTip": "UI\\CashierForm.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAiwFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:34:56.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Factory.cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlApi\\Factory.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlApi\\Factory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CashierForm.cs [Design]",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\CashierForm.cs",
+              "RelativeDocumentMoniker": "UI\\CashierForm.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\CashierForm.cs [Design]",
+              "RelativeToolTip": "UI\\CashierForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:39:51.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T13:34:49.624Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Factory.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\DalFacade\\DalApi\\Factory.cs",
-              "RelativeDocumentMoniker": "DalFacade\\DalApi\\Factory.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\DalFacade\\DalApi\\Factory.cs",
-              "RelativeToolTip": "DalFacade\\DalApi\\Factory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:37:43.74Z",
+              "WhenOpened": "2026-05-27T13:29:21.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SalesForm.cs",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\SalesForm.cs",
+              "RelativeDocumentMoniker": "UI\\SalesForm.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\SalesForm.cs",
+              "RelativeToolTip": "UI\\SalesForm.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAnwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:29:06.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\DalTest\\Program.cs",
-              "RelativeDocumentMoniker": "DalTest\\Program.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\DalTest\\Program.cs",
-              "RelativeToolTip": "DalTest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "SalesForm.cs [Design]",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\SalesForm.cs",
+              "RelativeDocumentMoniker": "UI\\SalesForm.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\SalesForm.cs [Design]",
+              "RelativeToolTip": "UI\\SalesForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:35:31.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T13:25:58.275Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IBl.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BlApi\\IBl.cs",
-              "RelativeDocumentMoniker": "BL\\BlApi\\IBl.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BlApi\\IBl.cs",
-              "RelativeToolTip": "BL\\BlApi\\IBl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:29:18.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\Program.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T10:30:59.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "Tools.cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BO\\Tools.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BO\\Tools.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:24:29.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Tools.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BO\\Tools.cs",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\BL\\BO\\Tools.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Tools.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BO\\Tools.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\BL\\BO\\Tools.cs",
               "RelativeToolTip": "BL\\BO\\Tools.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAywBEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:20:12.585Z",
+              "WhenOpened": "2026-05-27T13:16:21.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SaleInProduct.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BO\\SaleInProduct.cs",
-              "RelativeDocumentMoniker": "BL\\BO\\SaleInProduct.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BO\\SaleInProduct.cs",
-              "RelativeToolTip": "BL\\BO\\SaleInProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:20:09.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Sale.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BO\\Sale.cs",
-              "RelativeDocumentMoniker": "BL\\BO\\Sale.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BO\\Sale.cs",
-              "RelativeToolTip": "BL\\BO\\Sale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:20:07.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ProductInOrder.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BO\\ProductInOrder.cs",
-              "RelativeDocumentMoniker": "BL\\BO\\ProductInOrder.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BO\\ProductInOrder.cs",
-              "RelativeToolTip": "BL\\BO\\ProductInOrder.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:20:05.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Product.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BO\\Product.cs",
-              "RelativeDocumentMoniker": "BL\\BO\\Product.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BO\\Product.cs",
-              "RelativeToolTip": "BL\\BO\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:20:04.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Exceptions.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BO\\Exceptions.cs",
-              "RelativeDocumentMoniker": "BL\\BO\\Exceptions.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BO\\Exceptions.cs",
-              "RelativeToolTip": "BL\\BO\\Exceptions.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA4wEsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:19:56.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BO\\Enums.cs",
-              "RelativeDocumentMoniker": "BL\\BO\\Enums.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BO\\Enums.cs",
-              "RelativeToolTip": "BL\\BO\\Enums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:19:54.339Z",
+              "DocumentIndex": 12,
+              "Title": "BlTest.csproj",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\BlTest\\BlTest.csproj",
+              "RelativeDocumentMoniker": "BlTest\\BlTest.csproj",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\BlTest\\BlTest.csproj",
+              "RelativeToolTip": "BlTest\\BlTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T13:16:00.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "BL.csproj",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\BL\\BL.csproj",
+              "RelativeDocumentMoniker": "BL\\BL.csproj",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\BL\\BL.csproj",
+              "RelativeToolTip": "BL\\BL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T13:15:56.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Iproduct.cs",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalApi\\Iproduct.cs",
+              "RelativeDocumentMoniker": "DalFacade\\DalApi\\Iproduct.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalFacade\\DalApi\\Iproduct.cs",
+              "RelativeToolTip": "DalFacade\\DalApi\\Iproduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:09:31.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BlTest\\Program.cs",
-              "RelativeDocumentMoniker": "BlTest\\Program.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BlTest\\Program.cs",
-              "RelativeToolTip": "BlTest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalTest\\Program.cs",
+              "RelativeDocumentMoniker": "DalTest\\Program.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalTest\\Program.cs",
+              "RelativeToolTip": "DalTest\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T08:50:58.142Z",
+              "WhenOpened": "2026-05-27T13:09:22.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Initialization.cs",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalTest\\Initialization.cs",
+              "RelativeDocumentMoniker": "DalTest\\Initialization.cs",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalTest\\Initialization.cs",
+              "RelativeToolTip": "DalTest\\Initialization.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:04:59.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UI.csproj",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "UI\\UI.csproj",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\UI\\UI.csproj",
+              "RelativeToolTip": "UI\\UI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T12:55:47.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CustomerImplementation.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BlImplementation\\CustomerImplementation.cs",
-              "RelativeDocumentMoniker": "BL\\BlImplementation\\CustomerImplementation.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BlImplementation\\CustomerImplementation.cs",
-              "RelativeToolTip": "BL\\BlImplementation\\CustomerImplementation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:19:41.439Z",
+              "DocumentIndex": 15,
+              "Title": "DalXML.csproj",
+              "DocumentMoniker": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalXML\\DalXML.csproj",
+              "RelativeDocumentMoniker": "DalXML\\DalXML.csproj",
+              "ToolTip": "C:\\tehila\\14\\Store-cash-register\\.net - Copy\\DalXML\\DalXML.csproj",
+              "RelativeToolTip": "DalXML\\DalXML.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T12:54:59.454Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "SaleImplementation.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BlImplementation\\SaleImplementation.cs",
-              "RelativeDocumentMoniker": "BL\\BlImplementation\\SaleImplementation.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BlImplementation\\SaleImplementation.cs",
-              "RelativeToolTip": "BL\\BlImplementation\\SaleImplementation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:19:33.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ProductImplementation.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BlImplementation\\ProductImplementation.cs",
-              "RelativeDocumentMoniker": "BL\\BlImplementation\\ProductImplementation.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BlImplementation\\ProductImplementation.cs",
-              "RelativeToolTip": "BL\\BlImplementation\\ProductImplementation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T09:19:24.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Order.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BO\\Order.cs",
-              "RelativeDocumentMoniker": "BL\\BO\\Order.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BO\\Order.cs",
-              "RelativeToolTip": "BL\\BO\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T11:42:22.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IOrder.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BlApi\\IOrder.cs",
-              "RelativeDocumentMoniker": "BL\\BlApi\\IOrder.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BlApi\\IOrder.cs",
-              "RelativeToolTip": "BL\\BlApi\\IOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T11:42:17.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ProductImplementation.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\DalList\\ProductImplementation.cs",
-              "RelativeDocumentMoniker": "DalList\\ProductImplementation.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\DalList\\ProductImplementation.cs",
-              "RelativeToolTip": "DalList\\ProductImplementation.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T11:40:47.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Product.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\DalFacade\\DO\\Product.cs",
-              "RelativeDocumentMoniker": "DalFacade\\DO\\Product.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\DalFacade\\DO\\Product.cs",
-              "RelativeToolTip": "DalFacade\\DO\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T11:40:23.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "M:\\dot.net project\\.net\\BL\\BO\\Customer.cs",
-              "RelativeDocumentMoniker": "BL\\BO\\Customer.cs",
-              "ToolTip": "M:\\dot.net project\\.net\\BL\\BO\\Customer.cs",
-              "RelativeToolTip": "BL\\BO\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T11:28:41.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

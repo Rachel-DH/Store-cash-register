@@ -9,11 +9,11 @@ namespace DalTest
         {
             if (s_dal.product != null)
             {
-                s_dal.product.Create(new Product(1, "A", Category.A, 100, 40));
-                s_dal.product.Create(new Product(2, "B", Category.B, 200, 10));
-                s_dal.product.Create(new Product(3, "C", Category.C, 300, 10));
-                s_dal.product.Create(new Product(4, "D", Category.D, 400, 50));
-                s_dal.product.Create(new Product(5, "E", Category.E, 500, 20));
+                s_dal.product.Create(new Product(1, "A", Category.Earrings, 100, 40));
+                s_dal.product.Create(new Product(2, "B", Category.Watches, 200, 10));
+                s_dal.product.Create(new Product(3, "C", Category.Bracelets, 300, 10));
+                s_dal.product.Create(new Product(4, "D", Category.Rings, 400, 50));
+                s_dal.product.Create(new Product(5, "E", Category.Necklaces, 500, 20));
             }
         }
         private static void CreateCustomer() 

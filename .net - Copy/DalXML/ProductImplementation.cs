@@ -6,7 +6,7 @@ namespace Dal;
 internal class ProductImplementation : IProduct
 {
     private XmlSerializer xmlSerializer=new XmlSerializer(typeof(List<Product>));
-    private const string filePath = @"products.xml";
+    private const string filePath = @"..\xml\products.xml";
     public int Create(Product product)
     {
         List<Product> products= new List<Product>();
@@ -89,11 +89,11 @@ internal class ProductImplementation : IProduct
         {
             products = xmlSerializer.Deserialize(sr) as List<Product>;
         }
-        Delete(product.id);
+        products.RemoveAll(p => p.id == product.id);
         products.Add(product);
-        using(StreamWriter sr = new StreamWriter(filePath))
+        using (StreamWriter sw = new StreamWriter(filePath))
         {
-            xmlSerializer.Serialize(sr, products);
+            xmlSerializer.Serialize(sw, products);
         }
     }
 }

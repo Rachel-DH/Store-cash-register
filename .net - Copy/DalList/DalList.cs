@@ -11,11 +11,7 @@ namespace Dal
     public sealed class DalList : IDal
     {
         private DalList() { }
-        private readonly DalList instance;
-        public DalList Instance
-        {
-            get { return instance; }
-        }
+        public static DalList Instance { get; } = new DalList();
 
         public IProduct product => new ProductImplementation();
         public Icustomer customer => new CustomerImplementation();

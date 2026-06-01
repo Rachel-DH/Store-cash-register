@@ -1,56 +1,62 @@
-﻿using BlApi;
 namespace BlImplementation;
 
-internal class ProductImplementation : IProduct
+internal class ProductImplementation : BlApi.IProduct
 {
     private DalApi.IDal _dal = DalApi.Factory.Get;
+
     public int Create(BO.Product product)
     {
-        return _dal.product.Create(product.ConversBoProductToDoProduct());
+        try { return _dal.product.Create(product.ConversBoProductToDoProduct()); }
+        catch (DO.DalIdAlreadyExistsException e) { throw new BO.BlProductAlreadyExistsException(e.Message, e); }
     }
 
     public void Delete(int id)
     {
-        _dal.product.Delete(id);
+        try { _dal.product.Delete(id); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlProductIdNotFoundException(e.Message, e); }
     }
 
     public void GetSales(BO.ProductInOrder productInOrder, bool isMember)
     {
-        List<DO.Sale> sales = _dal.sale.ReadAll(sale => sale.barcode == productInOrder.Id);
-        List<BO.SaleInProduct> salesInProduct=new List<BO.SaleInProduct>();
-        foreach(DO.Sale sale in sales)
+        try
         {
-           salesInProduct.Add(sale.ConversDoSaleToBoSaleInProduct());
+            var sales = _dal.sale.ReadAll(s => s.barcode == productInOrder.Id
+                && s.begin_date <= DateTime.Now && s.end_date >= DateTime.Now
+                && (!s.to_members || isMember))
+                .Select(s => s.ConversDoSaleToBoSaleInProduct())
+                .OrderBy(s => s.Price / s.AmountToSale)
+                .ToList();
+
+            productInOrder.Sales = sales;
         }
-        productInOrder.Sales = salesInProduct;
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlProductIdNotFoundException(e.Message, e); }
     }
 
     public BO.Product? Read(int id)
     {
-        DO.Product product=_dal.product.Read(id);
-        return product.ConversDoProductToBoProduct();
+        try { return _dal.product.Read(id).ConversDoProductToBoProduct(); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlProductIdNotFoundException(e.Message, e); }
     }
 
     public BO.Product? Read(Func<BO.Product, bool> filter)
     {
-        DO.Product product = _dal.product.Read((Func<DO.Product,bool>)filter);
-        return product.ConversDoProductToBoProduct();
-
+        try { return _dal.product.Read(p => filter(p.ConversDoProductToBoProduct()))?.ConversDoProductToBoProduct(); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlProductIdNotFoundException(e.Message, e); }
     }
 
     public List<BO.Product?> ReadAll(Func<BO.Product, bool>? filter)
     {
-        List<DO.Product> list = _dal.product.ReadAll((Func<DO.Product, bool>)filter);
-        List<BO.Product> products = new List<BO.Product>();
-        foreach (DO.Product product in list)
+        try
         {
-            products.Add(product.ConversDoProductToBoProduct());
+            var list = _dal.product.ReadAll(filter == null ? null : p => filter(p.ConversDoProductToBoProduct()));
+            return (from p in list select (BO.Product?)p.ConversDoProductToBoProduct()).ToList();
         }
-        return products;
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlProductIdNotFoundException(e.Message, e); }
     }
 
     public void Update(BO.Product product)
     {
-        _dal.product.Update(product.ConversBoProductToDoProduct());
+        try { _dal.product.Update(product.ConversBoProductToDoProduct()); }
+        catch (DO.DalIdNotFoundException e) { throw new BO.BlProductIdNotFoundException(e.Message, e); }
     }
 }

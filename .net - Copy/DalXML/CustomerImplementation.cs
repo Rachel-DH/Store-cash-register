@@ -5,7 +5,7 @@ using System.Xml.Linq;
 namespace Dal;
 internal class CustomerImplementation : Icustomer
 {
-    private const string FILE_PATH = @"customers.xml";
+    private const string FILE_PATH = @"..\xml\customers.xml";
     private const string ID = "Id";
     private const string NAME = "Name";
     private const string ADDRESS = "Address";
@@ -51,10 +51,10 @@ internal class CustomerImplementation : Icustomer
             throw new DalIdNotFoundException("customer id not found");
         XElement customerToRead = idToRead.Parent;
         customer = new Customer(
-            int.Parse(customerToRead.Attribute(ID)?.Value),
-            customerToRead.Attribute(NAME)?.Value,
-            customerToRead.Attribute(ADDRESS)?.Value,
-            customerToRead.Attribute(PHONE_NUMBER)?.Value
+            int.Parse(customerToRead.Element(ID)?.Value),
+            customerToRead.Element(NAME)?.Value,
+            customerToRead.Element(ADDRESS)?.Value,
+            customerToRead.Element(PHONE_NUMBER)?.Value
             );
         return customer;
     }

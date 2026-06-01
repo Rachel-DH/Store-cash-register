@@ -6,5 +6,5 @@ public record Product
     double price,
     int amount)
 { 
-    public Product() : this(0, "",Category.A, 0.0, 0) { }
+    public Product() : this(0, "", Category.Rings, 0.0, 0) { }
 }
